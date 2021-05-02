@@ -1,0 +1,94 @@
+.navbar {
+  /* background-image: url(/images/download.jpg);*/
+
+  background-color: skyblue;
+  border-radius: 20px;
+}
+.navbar ul {
+  overflow: auto; /*automatically controls the content and adds scroll if necessary*/
+}
+.navbar li {
+  float: left; /*make element to apper at left */
+  list-style: none; /*removes list icon from the list*/
+  margin: 13px 20px;
+}
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none; /*In a tag removes underline*/
+  color: brown;
+}
+.navbar li a:hover {
+  color: red; /*when we hover that icon will gate red color*/
+}
+.search {
+  float: right;
+  color: white;
+  padding: 15px 75px;
+}
+.navbar input {
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 3px 17px;
+  width: 129px;
+}
+.logo {
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+.cen {
+  text-align: center;
+  border: 0px 2px 2px 2px;
+  background-color: rgb(149, 223, 223);
+}
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  padding: 0px;
+  height: 400px;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}*/
+.img1 {
+  height: 400px;
+  width: 50%;
+  background-color: orange;
+  overflow: hidden;
+}
+.img2 {
+  height: 400px;
+  width: 50%;
+  background-color: darkgreen;
+  overflow: hidden;
+}
+
+.he1 {
+  text-align: center;
+}
+.pad {
+  display: inline-block;
+  border: 2px solid rgb(231, 112, 168);
+  width: 600px;
+  height: 100px;
+  margin: 15px;
+  overflow: hidden;
+}
+.navya {
+  float: right;
+  border: indigo;
+  font-size: 20px;
+  color: darkgreen;
+}
+.navya:hover {
+  color: blue;
+}
